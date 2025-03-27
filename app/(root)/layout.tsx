@@ -1,7 +1,6 @@
-import { ReactNode } from "react"
+import { ReactNode } from "react";
 
-import Navbar from "@/components/navigation/navbar"
-import SocialAuthForm from "@/components/forms/SocialAuthForm"
+import Navbar from "@/components/navigation/navbar";
 
 const RootLayout = ({ children }: { children: ReactNode }) => {
     return (
@@ -9,7 +8,7 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
             <Navbar />
             {children}
         </main>
-    )
-}
+    );
+};
 
-export default RootLayout
+export default RootLayout;
